@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DevOps CI/CD Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body { font-family: Arial, Helvetica, sans-serif; padding: 2rem; }
+      .card { border: 1px solid #e0e0e0; padding: 1.2rem; border-radius: 8px; max-width:600px; }
+      h1 { margin-top: 0; }
+      .meta { color: #555; margin-top: 0.5rem; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>DevOps CI/CD Pipeline Demo</h1>
+      <p class="meta">This is a minimal Flask app deployed via CI/CD.</p>
+      <p><strong>Version:</strong> {{ version }}</p>
+      <p>Visit this app's URL to confirm zero-downtime deployment when new versions are pushed.</p>
+    </div>
+  </body>
+</html>
